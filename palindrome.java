@@ -3,7 +3,11 @@ package Algorithms;
 
 
 public class palindrome {
-
+	/* This method takes in a string and splits it up into two arrays, one where the string is in reverse 
+	 * and the other one where the string is normal. The method then compares each character in the string 
+	 * and keeps count if the characters are equal. If the equal amount is equal to the length of the string 
+	 * the method returns true and the string is a palindrome, otherwise it returns false.
+	 */
 	public static boolean isPalindrome(String str) {
 		boolean check = false;
 		String[] array = new String[str.length()];
